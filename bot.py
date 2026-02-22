@@ -105,7 +105,7 @@ async def trigger_all_workflows_async(ip, port, duration, threads):
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome = """
-<blockquote>🚀 𝔼ℝ𝕐𝐗 ℙ𝕆𝕎𝔼𝐑 𝔻𝔻𝕆𝐒 🚀
+🚀 𝔼ℝ𝕐𝐗 ℙ𝕆𝕎𝔼𝐑 𝔻𝔻𝕆𝐒 🚀
 
 🎯 COMMANDS:
 /Myid - Check User ID
@@ -126,7 +126,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 /listtokens - Show all tokens
 /removetoken <number> - Remove token
 
-👑 OWNER: @SpicyEryx ❤</blockquote>
+👑 OWNER: @SpicyEryx 🩵
     """
     await update.message.reply_text(welcome)
     
@@ -206,7 +206,7 @@ async def process_attack_input(update: Update, context: ContextTypes.DEFAULT_TYP
     attack_msg = f"""
 🚀 𝔼ℝ𝕐𝐗 ℙ𝕆𝕎𝔼𝐑 𝔻𝔻𝕆𝐒 🚀
 
-🚀 ATTACK BY: @MRXYTDM
+🚀 ATTACK BY: @SpicyEryx
 🎯 TARGET: {ip}
 🔌 PORT: {port}
 ⏰ TIME: {time_int}s
